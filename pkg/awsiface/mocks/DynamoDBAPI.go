@@ -3203,6 +3203,18 @@ func (_m *DynamoDBAPI) ListExports(*dynamodb.ListExportsInput) (*dynamodb.ListEx
 	panic("DynamoDBAPI::ListExports - Not implemented")
 }
 
-func (_m *DynamoDBAPI) ListExportsPages(interface{}) error {
+func (_m *DynamoDBAPI) ListExportsPages(*dynamodb.ListExportsInput, func(*dynamodb.ListExportsOutput, bool) bool) error {
 	panic("DynamoDBAPI::ListExportsPages - Not implemented")
+}
+
+func (_m *DynamoDBAPI) ListExportsPagesWithContext(aws.Context, *dynamodb.ListExportsInput, func(*dynamodb.ListExportsOutput, bool) bool, ...request.Option) error {
+	panic("DynamoDBAPI::ListExportsPagesWithContext - Not implemented")
+}
+
+func (_m *DynamoDBAPI) ListExportsRequest(*dynamodb.ListExportsInput) (*request.Request, *dynamodb.ListExportsOutput) {
+	panic("DynamoDBAPI::ListExportsRequest - Not implemented")
+}
+
+func (_m *DynamoDBAPI) ListExportsWithContext(aws.Context, *dynamodb.ListExportsInput, ...request.Option) (*dynamodb.ListExportsOutput, error) {
+	panic("DynamoDBAPI::ListExportsWithContext - Not implemented")
 }

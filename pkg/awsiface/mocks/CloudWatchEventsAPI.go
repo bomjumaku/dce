@@ -2430,6 +2430,110 @@ func (_m *CloudWatchEventsAPI) UntagResourceWithContext(_a0 context.Context, _a1
 	return r0, r1
 }
 
-func (_m *CloudWatchEventsAPI) CancelReplay(interface{}) error {
+func (_m *CloudWatchEventsAPI) CancelReplay(*cloudwatchevents.CancelReplayInput) (*cloudwatchevents.CancelReplayOutput, error) {
 	panic("CloudWatchEventsAPI:: CancelReplay not implemented")
+}
+
+func (_m *CloudWatchEventsAPI) CancelReplayRequest(*cloudwatchevents.CancelReplayInput) (*request.Request, *cloudwatchevents.CancelReplayOutput) {
+	panic("CloudWatchEventsAPI:: CancelReplayRequest not implemented")
+}
+
+func (_m *CloudWatchEventsAPI) CancelReplayWithContext(context.Context, *cloudwatchevents.CancelReplayInput, ...request.Option) (*cloudwatchevents.CancelReplayOutput, error) {
+	panic("CloudWatchEventsAPI:: CancelReplayWithContext not implemented")
+}
+
+func (_m *CloudWatchEventsAPI) CreateArchive(*cloudwatchevents.CreateArchiveInput) (*cloudwatchevents.CreateArchiveOutput, error) {
+	panic("CloudWatchEventsAPI:: CreateArchive not implemented")
+}
+
+func (_m *CloudWatchEventsAPI) CreateArchiveRequest(*cloudwatchevents.CreateArchiveInput) (*request.Request, *cloudwatchevents.CreateArchiveOutput) {
+	panic("CloudWatchEventsAPI:: CreateArchiveRequest not implemented")
+}
+
+func (_m *CloudWatchEventsAPI) CreateArchiveWithContext(context.Context, *cloudwatchevents.CreateArchiveInput, ...request.Option) (*cloudwatchevents.CreateArchiveOutput, error) {
+	panic("CloudWatchEventsAPI:: CreateArchiveWithContext not implemented")
+}
+
+func (_m *CloudWatchEventsAPI) DeleteArchive(*cloudwatchevents.DeleteArchiveInput) (*cloudwatchevents.DeleteArchiveOutput, error) {
+	panic("CloudWatchEventsAPI:: DeleteArchive not implemented")
+}
+
+func (_m *CloudWatchEventsAPI) DeleteArchiveRequest(*cloudwatchevents.DeleteArchiveInput) (*request.Request, *cloudwatchevents.DeleteArchiveOutput) {
+	panic("CloudWatchEventsAPI:: DeleteArchiveRequest not implemented")
+}
+
+func (_m *CloudWatchEventsAPI) DeleteArchiveWithContext(context.Context, *cloudwatchevents.DeleteArchiveInput, ...request.Option) (*cloudwatchevents.DeleteArchiveOutput, error) {
+	panic("CloudWatchEventsAPI:: DeleteArchiveWithContext not implemented")
+}
+
+func (_m *CloudWatchEventsAPI) DescribeArchive(*cloudwatchevents.DescribeArchiveInput) (*cloudwatchevents.DescribeArchiveOutput, error) {
+	panic("CloudWatchEventsAPI:: DescribeArchive not implemented")
+}
+
+func (_m *CloudWatchEventsAPI) DescribeArchiveWithContext(context.Context, *cloudwatchevents.DescribeArchiveInput, ...request.Option) (*cloudwatchevents.DescribeArchiveOutput, error) {
+	panic("CloudWatchEventsAPI:: DescribeArchiveWithContext not implemented")
+}
+
+func (_m *CloudWatchEventsAPI) DescribeArchiveRequest(*cloudwatchevents.DescribeArchiveInput) (*request.Request, *cloudwatchevents.DescribeArchiveOutput) {
+	panic("CloudWatchEventsAPI:: DescribeArchiveRequest not implemented")
+}
+
+func (_m *CloudWatchEventsAPI) DescribeReplay(*cloudwatchevents.DescribeReplayInput) (*cloudwatchevents.DescribeReplayOutput, error) {
+	panic("CloudWatchEventsAPI:: DescribeReplay not implemented")
+}
+
+func (_m *CloudWatchEventsAPI) DescribeReplayWithContext(context.Context, *cloudwatchevents.DescribeReplayInput, ...request.Option) (*cloudwatchevents.DescribeReplayOutput, error) {
+	panic("CloudWatchEventsAPI:: DescribeReplayWithContext not implemented")
+}
+
+func (_m *CloudWatchEventsAPI) DescribeReplayRequest(*cloudwatchevents.DescribeReplayInput) (*request.Request, *cloudwatchevents.DescribeReplayOutput) {
+	panic("CloudWatchEventsAPI:: DescribeReplayRequest not implemented")
+}
+
+func (_m *CloudWatchEventsAPI) ListArchives(*cloudwatchevents.ListArchivesInput) (*cloudwatchevents.ListArchivesOutput, error) {
+	panic("CloudWatchEventsAPI:: ListArchives not implemented")
+}
+
+func (_m *CloudWatchEventsAPI) ListArchivesWithContext(context.Context, *cloudwatchevents.ListArchivesInput, ...request.Option) (*cloudwatchevents.ListArchivesOutput, error) {
+	panic("CloudWatchEventsAPI:: ListArchivesWithContext not implemented")
+}
+
+func (_m *CloudWatchEventsAPI) ListArchivesRequest(*cloudwatchevents.ListArchivesInput) (*request.Request, *cloudwatchevents.ListArchivesOutput) {
+	panic("CloudWatchEventsAPI:: ListArchivesRequest not implemented")
+}
+
+func (_m *CloudWatchEventsAPI) ListReplays(*cloudwatchevents.ListReplaysInput) (*cloudwatchevents.ListReplaysOutput, error) {
+	panic("CloudWatchEventsAPI:: ListReplays not implemented")
+}
+
+func (_m *CloudWatchEventsAPI) ListReplaysWithContext(context.Context, *cloudwatchevents.ListReplaysInput, ...request.Option) (*cloudwatchevents.ListReplaysOutput, error) {
+	panic("CloudWatchEventsAPI:: ListReplaysWithContext not implemented")
+}
+
+func (_m *CloudWatchEventsAPI) ListReplaysRequest(*cloudwatchevents.ListReplaysInput) (*request.Request, *cloudwatchevents.ListReplaysOutput) {
+	panic("CloudWatchEventsAPI:: ListReplaysRequest not implemented")
+}
+
+func (_m *CloudWatchEventsAPI) StartReplay(*cloudwatchevents.StartReplayInput) (*cloudwatchevents.StartReplayOutput, error) {
+	panic("CloudWatchEventsAPI:: StartReplay not implemented")
+}
+
+func (_m *CloudWatchEventsAPI) StartReplayWithContext(context.Context, *cloudwatchevents.StartReplayInput, ...request.Option) (*cloudwatchevents.StartReplayOutput, error) {
+	panic("CloudWatchEventsAPI:: StartReplayWithContext not implemented")
+}
+
+func (_m *CloudWatchEventsAPI) StartReplayRequest(*cloudwatchevents.StartReplayInput) (*request.Request, *cloudwatchevents.StartReplayOutput) {
+	panic("CloudWatchEventsAPI:: StartReplayRequest not implemented")
+}
+
+func (_m *CloudWatchEventsAPI) UpdateArchive(*cloudwatchevents.UpdateArchiveInput) (*cloudwatchevents.UpdateArchiveOutput, error) {
+	panic("CloudWatchEventsAPI:: UpdateArchive not implemented")
+}
+
+func (_m *CloudWatchEventsAPI) UpdateArchiveWithContext(context.Context, *cloudwatchevents.UpdateArchiveInput, ...request.Option) (*cloudwatchevents.UpdateArchiveOutput, error) {
+	panic("CloudWatchEventsAPI:: UpdateArchiveWithContext not implemented")
+}
+
+func (_m *CloudWatchEventsAPI) UpdateArchiveRequest(*cloudwatchevents.UpdateArchiveInput) (*request.Request, *cloudwatchevents.UpdateArchiveOutput) {
+	panic("CloudWatchEventsAPI:: UpdateArchiveRequest not implemented")
 }
